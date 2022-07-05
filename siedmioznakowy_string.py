@@ -1,0 +1,5 @@
+tekst = input("Wpisz dowolny tekst nie krótszy niż 7 znaków: ")
+print(tekst)
+print("Tekst zawiera {} znaków".format(len(tekst)))
+print("Pierwszym znakiem tekstu jest {}, ostatnim {}".format(tekst[0], tekst[-1]))
+print("Znaki od trzeciego do szóstego to: {}".format(tekst[2:5]))
